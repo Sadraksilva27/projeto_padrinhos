@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Para vocês</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+
+    <div id="gate">
+      <p class="eyebrow">Um recado especial</p>
+      <h1>Para os nossos<br>padrinhos</h1>
+      <p class="msg">
+        Antes do grande dia, tem uma coisa que a gente queria mostrar só pra vocês.
+        Digite a senha que te passamos para abrir.
+      </p>
+      <div class="divider"></div>
+
+      <form id="passForm">
+        <input type="password" id="senha" placeholder="Senha" autocomplete="off">
+        <button type="submit">Abrir</button>
+        <p class="error" id="erro"></p>
+      </form>
+    </div>
+
+    <div id="reveal">
+      <p class="eyebrow">Chegou a hora</p>
+      <h1>Obrigado por<br>estarem com a gente</h1>
+      <p class="msg">
+        Vocês fazem parte dessa história desde muito antes do "sim".
+        Gravamos isso com carinho pra dizer o quanto isso significa pra nós.
+      </p>
+      <div class="divider"></div>
+
+      <div class="video-frame">
+        <iframe
+          id="videoFrame"
+          src=""
+          title="Mensagem para os padrinhos"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
